@@ -1,0 +1,1 @@
+This is a visual design website, so it is not functional but rather just looks pretty. It is for assignment purposes and i am not i am not affiliated with any of the brands mentioned nor any of these are my pictures as I got them from google or the offical websites or retailers of the brands. Thank you!

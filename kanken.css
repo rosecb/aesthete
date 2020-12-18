@@ -1,0 +1,108 @@
+/* general */
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+/* top portion showing what the customers see first */
+.home{
+    color: #9e7bb5;
+    font-size: 100px;
+    text-shadow: 1px 1px 1px whitesmoke;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    opacity: 100;
+    border-radius: 50%;
+}
+
+img.resize {
+    width: 200px;
+    height: 200px;
+}
+
+.h3 {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+/* products section */
+/* the design showing the products data is similar to that of the classic backpack with the general outline of the iconic looking bag */
+.bag {
+    font-family: "Playfair Display", Georgia, Serif;
+}
+
+/* allows the image to be rounded which is similar to the classic backpack design */
+section.item {
+    width: 300px;
+    margin: 5px 5px 5px 5px;
+    border: 1px;
+    border-radius: 27px;
+    background-color: #e9d3ff;
+    padding: 4px;
+}
+
+/* allows the image to expand when hovering over it */
+section.img:hover {
+    position: relative;
+    height: auto;
+    transform: scale(1.5);
+}
+
+/* allows the code for item, price description, and quantity to appear like a little pouch similar to the classic backpack */
+section.pouch {
+    border: 1 px;
+    background-color:#9e7bb5;
+    margin: 5px 5px 5px 5px;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+/* nav bar, makes it centered */
+.topnav-centered {
+    overflow: hidden;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a {
+    float: left;
+    color: grey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Changes color on hover*/
+.topnav-centered a:hover {
+    background-color: white;
+    color: #9e7bb5;
+}
+
+/* about section */
+.about {
+    float: center;
+	width:100%;
+	box-sizing:border-box;
+	padding:5px;
+    min-height:100px;
+    background-color: #9e7bb5;
+}
+
+
